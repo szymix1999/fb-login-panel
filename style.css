@@ -1,0 +1,27 @@
+body {
+  background-color: #f0f2f5;
+  overflow-y:scroll;
+}
+
+#fb-svg {
+  overflow: hidden;
+  vertical-align: baseline !important;
+}
+
+.register-center{
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.login-center{
+  top: 50%;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+@media (max-width: 575px){
+  .my-center{
+    text-align: center;
+  }
+}
